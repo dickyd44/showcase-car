@@ -13,7 +13,7 @@
 
 /* START: General Styles */
 .max-width {
-  @apply max-w-[1440px] max-auto;
+  @apply max-w-[1440px] mx-auto;
 }
 
 .padding-x {
@@ -39,7 +39,7 @@
 
 /* START: Hero Styles */
 .hero {
-  @apply flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] max-auto;
+  @apply flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto;
 }
 
 .hero__title {
