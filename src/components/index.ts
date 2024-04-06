@@ -1,6 +1,17 @@
 import { Button, Filter, More } from "./atoms";
 import { AppNavbar, AppFooter } from "./layouts";
-import SearchBar from "./Searchbar";
+import { Details, Card } from "./molecules";
+import { SearchBar } from "./organisms";
 import Hero from "./Hero";
 
-export { Button, Filter, More, AppNavbar, AppFooter, SearchBar, Hero };
+export {
+  Button,
+  Filter,
+  More,
+  AppNavbar,
+  AppFooter,
+  Details,
+  Card,
+  SearchBar,
+  Hero,
+};
