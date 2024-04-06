@@ -1,3 +1,4 @@
-import { default as CarDetails } from "./CarDetails";
+import { default as Details } from "./CarDetails";
+import { default as Card } from "./CarCard";
 
-export { CarDetails };
+export { Details, Card };
