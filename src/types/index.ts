@@ -54,7 +54,7 @@ export interface OptionProps {
 
 export interface CustomFilterProps {
   title: string;
-  option: OptionProps[];
+  options: OptionProps[];
 }
 
 export interface ShowMoreProps {
