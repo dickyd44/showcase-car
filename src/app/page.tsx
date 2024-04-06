@@ -1,9 +1,14 @@
-import Image from "next/image";
+import { SearchBar } from "@/components";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <>
-      <div>{/* <h1>Showcase Car</h1> */}</div>
-    </>
+    <main className="overflow-hidden">
+      <Hero />
+
+      <div className="home__filters">
+        <SearchBar />
+      </div>
+    </main>
   );
 }
